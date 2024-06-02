@@ -1,0 +1,131 @@
+:root{
+    --primary:#0077b6;
+    --secoundary:#48cae3;
+    --black:#333;
+    --white:#fff;
+    --box-shadow: 0.5rem 1rem rgba(0,0,0,0.1); 
+  }
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+    .bg{
+      height: 400px;
+      width: 100%;
+      background-image: url('../images/slider1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }    
+  .text{
+      color: white;
+      font-size: 45px;
+      padding-top: 130px;
+      text-align: center;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      /* padding-bottom: -5px !important; */
+  }
+  .text1{
+      color: white;
+      font-size:13px;
+      text-align: center;
+      font-family: "Ubuntu", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 600;
+     font-style: normal;
+     letter-spacing: 3px;
+  
+  }
+  .icon{
+      color: white;
+      font-size: 8px;
+      padding-left: 10px;
+      padding-right: 5px;
+  }
+   
+  .cardShift {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 400px;
+  }
+  .card-img-top{
+    aspect-ratio: 1/1;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* chef  */
+  .chef-image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .chef-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .chef-image-container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .chef-image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .chef-image-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  .chef-image-container .text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .bookforroom{
+    background-color: #DBA765 !important;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border: none;
+  }
+  .bookforroom:hover{
+    background-color: #343a40 !important;
+    transition: 1s;
+    border-radius: 4px;
+  }
+  .chef-image-container .btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chef-image-container .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+ 

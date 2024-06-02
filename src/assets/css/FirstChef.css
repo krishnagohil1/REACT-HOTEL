@@ -1,0 +1,50 @@
+* section */
+.setvector{
+  max-width: 300px;
+  position: absolute;
+  right: 0%;
+}
+@media screen and (max-width:1200px) {
+  .setvector{
+    max-width: 330px !important;
+  }
+}
+@media screen and (max-width:1245px) {
+  .setvector{
+    display: none;
+  }
+}
+.transition{
+    transition: 2s;
+}
+.smoke{
+    background-color: whitesmoke;
+}
+.setColor{
+    color: #d19b54;
+}
+#Chefimg img{
+  /* margin-top: -50px; */
+  width: 500px !important;
+  height: 600px !important;
+}
+.image{
+  /* max-width: 500px;
+  max-height: 1200px; */
+  /* max-width: 500px;
+  max-height: 800px; */
+  display: block;
+  margin: auto;
+}
+.image:hover{
+  opacity: 0.8;
+  box-shadow: 2px 2px 4px #555;
+  transition: 1s ease-in;
+}
+.fa {
+  color: #d19b54;
+}
+.fa:hover{
+  color:#333;
+  transition: 1s;
+}

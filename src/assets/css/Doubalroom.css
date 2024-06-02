@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  /* navigation start */
+ 
+  /* bg.start */
+ button a:hover{
+    color: #fff ;
+    text-decoration: none !important;
+  }
+  button a:link{
+    color: white ;
+    text-decoration: none !important;
+  }
+  button a:visited{
+    color: white ;
+    text-decoration: none !important;
+  }
+  button a:active{
+    color: white ;
+    text-decoration: none !important;
+  } 
+  .bg{
+    height: 400px;
+    width: 100%;
+    background-image: url('../images/slider1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }    
+  .rtext{
+    color: white;
+    font-size: 45px;
+    padding-top: 130px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* padding-bottom: -5px !important; */
+  }
+  .rtext1{
+   color: white;
+   font-size:13px;
+   text-align: center;
+   font-family: "Ubuntu", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   letter-spacing: 3px;
+  
+  }
+  .icon{
+   color: white;
+   font-size: 8px;
+   padding-left: 10px;
+   padding-right: 5px;
+  }
+  /*bg end */
+  .doubalroom{
+   height:330px !important;
+   width: 450px !important;
+   margin-left: 250px !important;
+   margin-top: 50px !important;
+   /* background-image: url('.../assets/images/room.jpg'); */
+   
+  }
+  .room1{
+    height: 330px !important;
+    margin-left: 100px !important;
+    margin-top: 50px !important;
+  }
+  .doubalroom2{
+  height: 330px !important;
+  margin-left: 250px !important;
+  margin-top: 40px !important;
+  width: 450px !important;
+  }
+  .room3{
+  height:330px !important;
+  margin-left: 40px !important;
+  margin-top: 0px !important;
+  width: 450px !important;
+  }
+  .icon1{
+    color: #DBA765 !important;
+    margin-left: 2px;
+  }
+  .t{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .t1{
+  text-align: justify;
+  }
+  
+  .roombutton{
+    height: 40px !important;
+    margin-top: 5px;
+    background-color: #DBA765;
+    color: white;
+    font-size: small;
+    border: none;
+    width: 120px;
+  }
+  .roombutton:hover{
+    background-color: #000000;
+  }
+  /* media query */
+  
+  @media only screen and (max-width:1280px) {
+  .doubalroom{
+    margin-left: 100px !important;
+    width:430px !important;
+  }
+  .room1{
+    width: 430px !important;
+    margin-left: 80px !important;
+  }
+  .doubalroom2{
+    margin-left: 100px !important;
+    width:430px !important;
+  }
+  .room3{
+    width: 430px !important;
+    margin-left: 80px !important;
+  }
+  }
+  @media only screen and (max-width:1024px) {
+  .doubalroom{
+    margin-left: 30px !important;
+    width:430px !important;
+  }
+  .room1{
+    width: 430px !important;
+    margin-left: 110px !important;
+  }
+  .doubalroom2{
+    margin-left: 30px !important;
+    width:430px !important;
+  
+  }
+  .room3{
+    width: 430px !important;
+  }
+  }
+  @media only screen and (max-width:915px) {
+  .doubalroom{
+    margin-left: 40px !important;
+    width:380px !important;
+  }
+  .room1{
+    width: 380px !important;
+    margin-left: 60px !important;
+  }
+  .doubalroom2{
+    margin-left: 40px !important;
+    width:380px !important;
+  }
+  .room3{
+    width: 380px !important;
+    margin-left: 23px !important;
+  }
+  }
+  
+  @media only screen and (max-width:855px) {
+  .doubalroom{
+    margin-left: 20px !important;
+    width:380px !important;
+    height: 300px !important;
+  }
+  .room1{
+    width: 380px !important;
+    margin-left: 80px !important;
+  }
+  .doubalroom2{
+    margin-left: 20px !important;
+    width:380px !important;
+  }
+  .room3{
+    width: 380px !important;
+    margin-left: 20px !important;
+    height: 300px !important;
+  }
+  }
+  @media only screen and (max-width:768px) {
+  .doubalroom{
+    margin-left: 0px !important;
+    width:350px !important;
+  }
+  .room1{
+    width: 380px !important;
+    margin-left: 65px !important;
+  }
+  .doubalroom2{
+    margin-left: 5px !important;
+    width:380px !important;
+  }
+  .room3{
+    width: 350px !important;
+    margin-left: 0px !important;
+  }
+  }
+  
+  @media only screen and (max-width:540px) {
+  .doubalroom{
+    margin-left: 50px !important;
+    width:400px !important;
+  }
+  .room1{
+    margin-left: 50px !important;
+    width:400px !important;
+  }
+  .doubalroom2{
+    margin-left: 50px !important;
+    width:400px !important;
+  }
+  .room3{
+    margin-left: 50px !important;
+    width:400px !important;
+  }
+  }
+  @media only screen and (max-width:435px) {
+  .doubalroom{
+    margin-left: 10px !important;
+    width:390px !important;
+  }
+  .room1{
+    margin-left: 10px !important;
+    width:390px !important;
+  }
+  .doubalroom2{
+    margin-left: 10px !important;
+    width:390px !important;
+  }
+  .room3{
+    margin-left: 10px !important;
+    width:390px !important;
+  }
+  }
+  @media only screen and (max-width:415px) {
+  .doubalroom{
+    margin-left: 20px !important;
+    width:350px !important;
+    height: 250px !important;
+  }
+  .room1{
+    margin-left: 20px !important;
+    width:380px !important;
+  }
+  .doubalroom2{
+    margin-left: 20px !important;
+    width:380px !important;
+  }
+  .room3{
+    margin-left: 20px !important;
+    width:350px !important;
+    height: 250px !important;
+  }
+  }
+  
+  @media only screen and (max-width:395px) {
+  .doubalroom{
+    margin-left: 5px !important;
+    width:355px !important;
+  }
+  .room1{
+    margin-left: 5px !important;
+    width:355px !important;
+  }
+  .doubalroom2{
+    margin-left: 5px !important;
+    width:355px !important;
+  }
+  .room3{
+    margin-left: 5px !important;
+    width:355px !important;
+  }
+  }
+  @media only screen and (max-width:380px) {
+  .doubalroom{
+    margin-left: 0px !important;
+    width:350px !important;
+  }
+  .room1{
+    margin-left: 0px !important;
+    width:380px !important;
+  }
+  .doubalroom2{
+    margin-left: 0px !important;
+    width:380px !important;
+  }
+  .room3{
+    margin-left: 0px !important;
+    width:350px !important;
+  }
+  }
+  
+  @media only screen and (max-width:360px) {
+  .doubalroom{
+    margin-left: 0px !important;
+    width:330px !important;
+  }
+  .room1{
+    margin-left: 0px !important;
+    width:350px !important;
+  }
+  .doubalroom2{
+    margin-left: 0px !important;
+    width:350px !important;
+  }
+  .room3{
+    margin-left: 0px !important;
+    width:330px !important;
+  }
+  }
+  @media only screen and (max-width:345px) {
+  .doubalroom{
+    margin-left: 0px !important;
+    width:320px !important;
+  }
+  .room1{
+    margin-left: 0px !important;
+    width:350px !important;
+  }
+  .doubalroom2{
+    margin-left: 0px !important;
+    width:350px !important;
+  }
+  .room3{
+    margin-left: 0px !important;
+    width:320px !important;
+  }
+  }
+  @media only screen and (max-width:320px) {
+    .btext{
+        font-size: 27px !important;
+    }
+  }
+  
